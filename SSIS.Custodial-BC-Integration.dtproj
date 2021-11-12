@@ -26,11 +26,11 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">ITL119540</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATKFFTeIFSkuA+tcmjwF+lQAAAAACAAAAAAADZgAAwAAAABAAAAALxu7R50Lvpqmus04Gsw9mAAAAAASAAACgAAAAEAAAALlqjO67GsXkt1/kWEXSwL6IAAAAMDgc0vD3Zf5qs5iql5U4ZVMA5bJySOOuWvDcLwpdRMPRFVQ4FGuzSWAag8/nifLhZTZbi3Wk5exE+zXOWm31JSZPW3Eg4Lm+k4QJK7VdwnVuXdS/RRmZcd6D2vQpgzBKprjEoe248vcEdsMvmUR7NAHZ4o7l4LA70PMOKnhpXG8FxPYRpwFuIxQAAADXNyR7V7bUrWxkT/24NxMAAOtu/A==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzEz4jmvvsEW+DDBiA0HB4wAAAAACAAAAAAADZgAAwAAAABAAAACdfD7soKnKdaZ5v/aK/ckNAAAAAASAAACgAAAAEAAAAD5p0MVD7lDtlMFf9uVWKgGIAAAAc/yynAwrr7PaZxbMZZ5z/r7XLYi4kQ3XzmZmHzpY6ufPQ1kaODOfNLoijLoA7M05mz77FeAtQckX3lfHjrxGL9fU5WAdVBTwvQrbgkCubDTc2Y7N7al+cDKRgVrXMjHDewryf6c6m6BQsYe5i/1FSOaHXejH85UVnoYav0ZUWxVj7WwYEgYz3BQAAACfL1dmZNaERrNwzj85/Jj6zH/OTw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="BenToBC.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="BenVendorToBC.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="Flat File Connection Manager Vendors.conmgr" />
@@ -184,6 +184,8 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">
+                </SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -198,7 +200,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">""</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">&lt;none&gt;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -219,23 +221,23 @@
             </SSIS:Parameter>
           </SSIS:ProjectConnectionParameters>
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="BenToBC.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="BenVendorToBC.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{C77A3926-EBBE-4D1C-9002-D39545D53423}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{7BD0F4FC-CD5D-46B1-A8AD-49A7B2E69FA8}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">BenVendorToBC</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">10</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">34</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{B91BB31C-33CA-4A1B-A77B-85425CF053AA}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{55501626-D8B6-45B5-BE44-4396CA31F5E3}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
-                <SSIS:Parameter SSIS:Name="CM.SERV-DATA-DEV.BenedictApplications.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.BenedictApplications.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -250,7 +252,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.SERV-DATA-DEV.BenedictApplications.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.BenedictApplications.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -265,7 +267,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.SERV-DATA-DEV.BenedictApplications.ConnectRetryCount">
+                <SSIS:Parameter SSIS:Name="CM.BenedictApplications.ConnectRetryCount">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -280,7 +282,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.SERV-DATA-DEV.BenedictApplications.ConnectRetryInterval">
+                <SSIS:Parameter SSIS:Name="CM.BenedictApplications.ConnectRetryInterval">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -295,7 +297,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.SERV-DATA-DEV.BenedictApplications.ConnectUsingManagedIdentity">
+                <SSIS:Parameter SSIS:Name="CM.BenedictApplications.ConnectUsingManagedIdentity">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -310,7 +312,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.SERV-DATA-DEV.BenedictApplications.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.BenedictApplications.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -325,7 +327,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.SERV-DATA-DEV.BenedictApplications.Password">
+                <SSIS:Parameter SSIS:Name="CM.BenedictApplications.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -339,7 +341,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.SERV-DATA-DEV.BenedictApplications.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.BenedictApplications.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -354,7 +356,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.SERV-DATA-DEV.BenedictApplications.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.BenedictApplications.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -369,7 +371,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.SERV-DATA-DEV.BenedictApplications.UserName">
+                <SSIS:Parameter SSIS:Name="CM.BenedictApplications.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
