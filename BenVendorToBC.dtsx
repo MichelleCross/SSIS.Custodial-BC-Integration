@@ -11,24 +11,10 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="BenVendorToBC"
   DTS:PackageType="5"
-  DTS:VersionBuild="36"
-  DTS:VersionGUID="{0CA07859-8A88-4BEE-8709-3056117BFF0A}">
+  DTS:VersionBuild="44"
+  DTS:VersionGUID="{D92F0ED4-ED20-45B2-9E21-78952464E667}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
-  <DTS:ConnectionManagers>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[BenedictApplications]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{9ADD57B5-1302-41CF-BF6A-FD38C588F061}"
-      DTS:ObjectName="BenedictApplications">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=SERV-DATA-DEV;Initial Catalog=BenedictApplications;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-  </DTS:ConnectionManagers>
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
@@ -94,112 +80,112 @@
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[No]"
                       cachedDataType="wstr"
-                      cachedLength="20"
+                      cachedLength="4000"
                       cachedName="No"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[No]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[No]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[Name]"
                       cachedDataType="wstr"
-                      cachedLength="100"
+                      cachedLength="4000"
                       cachedName="Name"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Name]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Name]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[SearchName]"
                       cachedDataType="wstr"
-                      cachedLength="100"
+                      cachedLength="4000"
                       cachedName="SearchName"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[SearchName]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[SearchName]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[Name2]"
                       cachedDataType="wstr"
-                      cachedLength="50"
+                      cachedLength="4000"
                       cachedName="Name2"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Name2]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Name2]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[Address]"
                       cachedDataType="wstr"
-                      cachedLength="100"
+                      cachedLength="4000"
                       cachedName="Address"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Address]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Address]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[Address2]"
                       cachedDataType="wstr"
-                      cachedLength="50"
+                      cachedLength="4000"
                       cachedName="Address2"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Address2]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Address2]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[City]"
                       cachedDataType="wstr"
-                      cachedLength="30"
+                      cachedLength="4000"
                       cachedName="City"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[City]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[City]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[Contact]"
                       cachedDataType="wstr"
-                      cachedLength="100"
+                      cachedLength="4000"
                       cachedName="Contact"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Contact]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Contact]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[PhoneNo]"
                       cachedDataType="wstr"
-                      cachedLength="30"
+                      cachedLength="4000"
                       cachedName="PhoneNo"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PhoneNo]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[PhoneNo]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[OurAccountNo]"
                       cachedDataType="wstr"
-                      cachedLength="20"
+                      cachedLength="4000"
                       cachedName="OurAccountNo"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[OurAccountNo]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[OurAccountNo]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[TerritoryCode]"
                       cachedDataType="wstr"
-                      cachedLength="10"
+                      cachedLength="4000"
                       cachedName="TerritoryCode"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[TerritoryCode]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[TerritoryCode]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[GlobalDimension1Code]"
                       cachedDataType="wstr"
-                      cachedLength="20"
+                      cachedLength="4000"
                       cachedName="GlobalDimension1Code"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[GlobalDimension1Code]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[GlobalDimension1Code]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[GlobalDimension2Code]"
                       cachedDataType="wstr"
-                      cachedLength="20"
+                      cachedLength="4000"
                       cachedName="GlobalDimension2Code"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[GlobalDimension2Code]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[GlobalDimension2Code]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[VendorPostingGroup]"
                       cachedDataType="wstr"
-                      cachedLength="20"
+                      cachedLength="4000"
                       cachedName="VendorPostingGroup"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[VendorPostingGroup]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[VendorPostingGroup]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[CurrencyCode]"
                       cachedDataType="wstr"
-                      cachedLength="10"
+                      cachedLength="4000"
                       cachedName="CurrencyCode"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[CurrencyCode]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[CurrencyCode]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[PaymentTermsCode]"
                       cachedDataType="wstr"
-                      cachedLength="10"
+                      cachedLength="4000"
                       cachedName="PaymentTermsCode"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PaymentTermsCode]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[PaymentTermsCode]" />
@@ -212,70 +198,70 @@
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[PayToVendorNo]"
                       cachedDataType="wstr"
-                      cachedLength="20"
+                      cachedLength="4000"
                       cachedName="PayToVendorNo"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PayToVendorNo]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[PayToVendorNo]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[PaymentMethodCode]"
                       cachedDataType="wstr"
-                      cachedLength="10"
+                      cachedLength="4000"
                       cachedName="PaymentMethodCode"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PaymentMethodCode]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[PaymentMethodCode]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[FaxNo]"
                       cachedDataType="wstr"
-                      cachedLength="30"
+                      cachedLength="4000"
                       cachedName="FaxNo"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[FaxNo]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[FaxNo]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[TaxRegistrationNo]"
                       cachedDataType="wstr"
-                      cachedLength="20"
+                      cachedLength="4000"
                       cachedName="TaxRegistrationNo"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[TaxRegistrationNo]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[TaxRegistrationNo]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[ZipCode]"
                       cachedDataType="wstr"
-                      cachedLength="20"
+                      cachedLength="4000"
                       cachedName="ZipCode"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ZipCode]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[ZipCode]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[State]"
                       cachedDataType="wstr"
-                      cachedLength="30"
+                      cachedLength="4000"
                       cachedName="State"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[State]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[State]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[Email]"
                       cachedDataType="wstr"
-                      cachedLength="80"
+                      cachedLength="4000"
                       cachedName="Email"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Email]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Email]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[HomePage]"
                       cachedDataType="wstr"
-                      cachedLength="80"
+                      cachedLength="4000"
                       cachedName="HomePage"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[HomePage]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[HomePage]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[NoSeries]"
                       cachedDataType="wstr"
-                      cachedLength="20"
+                      cachedLength="4000"
                       cachedName="NoSeries"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[NoSeries]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[NoSeries]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[TaxAreaCode]"
                       cachedDataType="wstr"
-                      cachedLength="20"
+                      cachedLength="4000"
                       cachedName="TaxAreaCode"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[TaxAreaCode]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[TaxAreaCode]" />
@@ -288,21 +274,21 @@
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[ICPartnerCode]"
                       cachedDataType="wstr"
-                      cachedLength="20"
+                      cachedLength="4000"
                       cachedName="ICPartnerCode"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ICPartnerCode]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[ICPartnerCode]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[FederalIDNo]"
                       cachedDataType="wstr"
-                      cachedLength="30"
+                      cachedLength="4000"
                       cachedName="FederalIDNo"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[FederalIDNo]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[FederalIDNo]" />
                     <inputColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[IRS1099Code]"
                       cachedDataType="wstr"
-                      cachedLength="10"
+                      cachedLength="4000"
                       cachedName="IRS1099Code"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[IRS1099Code]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[IRS1099Code]" />
@@ -466,88 +452,96 @@
                       cachedName="VendorBankAccountType"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[VendorBankAccountType]"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[VendorBankAccountType]" />
+                    <inputColumn
+                      refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].Columns[Comment]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="Comment"
+                      externalMetadataColumnId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Comment]"
+                      lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Comment]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[No]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="No" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Name]"
                       dataType="wstr"
-                      length="100"
+                      length="4000"
                       name="Name" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[SearchName]"
                       dataType="wstr"
-                      length="100"
+                      length="4000"
                       name="SearchName" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Name2]"
                       dataType="wstr"
-                      length="50"
+                      length="4000"
                       name="Name2" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Address]"
                       dataType="wstr"
-                      length="100"
+                      length="4000"
                       name="Address" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Address2]"
                       dataType="wstr"
-                      length="50"
+                      length="4000"
                       name="Address2" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[City]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       name="City" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Contact]"
                       dataType="wstr"
-                      length="100"
+                      length="4000"
                       name="Contact" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PhoneNo]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       name="PhoneNo" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[OurAccountNo]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="OurAccountNo" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[TerritoryCode]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       name="TerritoryCode" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[GlobalDimension1Code]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="GlobalDimension1Code" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[GlobalDimension2Code]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="GlobalDimension2Code" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[VendorPostingGroup]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="VendorPostingGroup" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[CurrencyCode]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       name="CurrencyCode" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PaymentTermsCode]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       name="PaymentTermsCode" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Blocked]"
@@ -556,52 +550,52 @@
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PayToVendorNo]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="PayToVendorNo" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PaymentMethodCode]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       name="PaymentMethodCode" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[FaxNo]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       name="FaxNo" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[TaxRegistrationNo]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="TaxRegistrationNo" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ZipCode]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="ZipCode" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[State]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       name="State" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Email]"
                       dataType="wstr"
-                      length="80"
+                      length="4000"
                       name="Email" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[HomePage]"
                       dataType="wstr"
-                      length="80"
+                      length="4000"
                       name="HomePage" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[NoSeries]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="NoSeries" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[TaxAreaCode]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="TaxAreaCode" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[TaxLiable]"
@@ -610,17 +604,17 @@
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ICPartnerCode]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="ICPartnerCode" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[FederalIDNo]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       name="FederalIDNo" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[IRS1099Code]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       name="IRS1099Code" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[VendorBankName]"
@@ -742,6 +736,12 @@
                       dataType="str"
                       length="1"
                       name="VendorBankAccountType" />
+                    <externalMetadataColumn
+                      refId="Package\DFLT - Put Results in Memory\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Comment]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      name="Comment" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -797,8 +797,8 @@
               <connections>
                 <connection
                   refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[BenedictApplications]"
-                  connectionManagerRefId="Package.ConnectionManagers[BenedictApplications]"
+                  connectionManagerID="{9ADD57B5-1302-41CF-BF6A-FD38C588F061}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[BenedictApplications]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -813,7 +813,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[No]"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[No]"
                       name="No"
                       truncationRowDisposition="FailComponent" />
@@ -823,7 +823,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Name]"
-                      length="100"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Name]"
                       name="Name"
                       truncationRowDisposition="FailComponent" />
@@ -833,7 +833,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[SearchName]"
-                      length="100"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[SearchName]"
                       name="SearchName"
                       truncationRowDisposition="FailComponent" />
@@ -843,7 +843,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Name2]"
-                      length="50"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Name2]"
                       name="Name2"
                       truncationRowDisposition="FailComponent" />
@@ -853,7 +853,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Address]"
-                      length="100"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Address]"
                       name="Address"
                       truncationRowDisposition="FailComponent" />
@@ -863,7 +863,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Address2]"
-                      length="50"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Address2]"
                       name="Address2"
                       truncationRowDisposition="FailComponent" />
@@ -873,7 +873,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[City]"
-                      length="30"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[City]"
                       name="City"
                       truncationRowDisposition="FailComponent" />
@@ -883,7 +883,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Contact]"
-                      length="100"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Contact]"
                       name="Contact"
                       truncationRowDisposition="FailComponent" />
@@ -893,7 +893,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[PhoneNo]"
-                      length="30"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[PhoneNo]"
                       name="PhoneNo"
                       truncationRowDisposition="FailComponent" />
@@ -903,7 +903,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[OurAccountNo]"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[OurAccountNo]"
                       name="OurAccountNo"
                       truncationRowDisposition="FailComponent" />
@@ -913,7 +913,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[TerritoryCode]"
-                      length="10"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[TerritoryCode]"
                       name="TerritoryCode"
                       truncationRowDisposition="FailComponent" />
@@ -923,7 +923,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[GlobalDimension1Code]"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[GlobalDimension1Code]"
                       name="GlobalDimension1Code"
                       truncationRowDisposition="FailComponent" />
@@ -933,7 +933,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[GlobalDimension2Code]"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[GlobalDimension2Code]"
                       name="GlobalDimension2Code"
                       truncationRowDisposition="FailComponent" />
@@ -943,7 +943,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[VendorPostingGroup]"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[VendorPostingGroup]"
                       name="VendorPostingGroup"
                       truncationRowDisposition="FailComponent" />
@@ -953,7 +953,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[CurrencyCode]"
-                      length="10"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[CurrencyCode]"
                       name="CurrencyCode"
                       truncationRowDisposition="FailComponent" />
@@ -963,7 +963,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[PaymentTermsCode]"
-                      length="10"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[PaymentTermsCode]"
                       name="PaymentTermsCode"
                       truncationRowDisposition="FailComponent" />
@@ -982,7 +982,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[PayToVendorNo]"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[PayToVendorNo]"
                       name="PayToVendorNo"
                       truncationRowDisposition="FailComponent" />
@@ -992,7 +992,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[PaymentMethodCode]"
-                      length="10"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[PaymentMethodCode]"
                       name="PaymentMethodCode"
                       truncationRowDisposition="FailComponent" />
@@ -1002,7 +1002,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[FaxNo]"
-                      length="30"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[FaxNo]"
                       name="FaxNo"
                       truncationRowDisposition="FailComponent" />
@@ -1012,7 +1012,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[TaxRegistrationNo]"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[TaxRegistrationNo]"
                       name="TaxRegistrationNo"
                       truncationRowDisposition="FailComponent" />
@@ -1022,7 +1022,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[ZipCode]"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[ZipCode]"
                       name="ZipCode"
                       truncationRowDisposition="FailComponent" />
@@ -1032,7 +1032,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[State]"
-                      length="30"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[State]"
                       name="State"
                       truncationRowDisposition="FailComponent" />
@@ -1042,7 +1042,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Email]"
-                      length="80"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Email]"
                       name="Email"
                       truncationRowDisposition="FailComponent" />
@@ -1052,7 +1052,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[HomePage]"
-                      length="80"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[HomePage]"
                       name="HomePage"
                       truncationRowDisposition="FailComponent" />
@@ -1062,7 +1062,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[NoSeries]"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[NoSeries]"
                       name="NoSeries"
                       truncationRowDisposition="FailComponent" />
@@ -1072,7 +1072,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[TaxAreaCode]"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[TaxAreaCode]"
                       name="TaxAreaCode"
                       truncationRowDisposition="FailComponent" />
@@ -1091,7 +1091,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[ICPartnerCode]"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[ICPartnerCode]"
                       name="ICPartnerCode"
                       truncationRowDisposition="FailComponent" />
@@ -1101,7 +1101,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[FederalIDNo]"
-                      length="30"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[FederalIDNo]"
                       name="FederalIDNo"
                       truncationRowDisposition="FailComponent" />
@@ -1111,9 +1111,20 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[IRS1099Code]"
-                      length="10"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[IRS1099Code]"
                       name="IRS1099Code"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Comment]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Comment]"
+                      length="1"
+                      lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[Comment]"
+                      name="Comment"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].Columns[VendorBankName]"
@@ -1341,82 +1352,82 @@
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[No]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="No" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Name]"
                       dataType="wstr"
-                      length="100"
+                      length="4000"
                       name="Name" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[SearchName]"
                       dataType="wstr"
-                      length="100"
+                      length="4000"
                       name="SearchName" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Name2]"
                       dataType="wstr"
-                      length="50"
+                      length="4000"
                       name="Name2" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Address]"
                       dataType="wstr"
-                      length="100"
+                      length="4000"
                       name="Address" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Address2]"
                       dataType="wstr"
-                      length="50"
+                      length="4000"
                       name="Address2" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[City]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       name="City" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Contact]"
                       dataType="wstr"
-                      length="100"
+                      length="4000"
                       name="Contact" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[PhoneNo]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       name="PhoneNo" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[OurAccountNo]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="OurAccountNo" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[TerritoryCode]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       name="TerritoryCode" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[GlobalDimension1Code]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="GlobalDimension1Code" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[GlobalDimension2Code]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="GlobalDimension2Code" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[VendorPostingGroup]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="VendorPostingGroup" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[CurrencyCode]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       name="CurrencyCode" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[PaymentTermsCode]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       name="PaymentTermsCode" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Blocked]"
@@ -1425,52 +1436,52 @@
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[PayToVendorNo]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="PayToVendorNo" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[PaymentMethodCode]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       name="PaymentMethodCode" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[FaxNo]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       name="FaxNo" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[TaxRegistrationNo]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="TaxRegistrationNo" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[ZipCode]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="ZipCode" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[State]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       name="State" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Email]"
                       dataType="wstr"
-                      length="80"
+                      length="4000"
                       name="Email" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[HomePage]"
                       dataType="wstr"
-                      length="80"
+                      length="4000"
                       name="HomePage" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[NoSeries]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="NoSeries" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[TaxAreaCode]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="TaxAreaCode" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[TaxLiable]"
@@ -1479,18 +1490,24 @@
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[ICPartnerCode]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       name="ICPartnerCode" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[FederalIDNo]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       name="FederalIDNo" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[IRS1099Code]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       name="IRS1099Code" />
+                    <externalMetadataColumn
+                      refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[Comment]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      name="Comment" />
                     <externalMetadataColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Output].ExternalColumns[VendorBankName]"
                       codePage="1252"
@@ -1621,97 +1638,97 @@
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[No]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[No]"
                       name="No" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[Name]"
                       dataType="wstr"
-                      length="100"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[Name]"
                       name="Name" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[SearchName]"
                       dataType="wstr"
-                      length="100"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[SearchName]"
                       name="SearchName" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[Name2]"
                       dataType="wstr"
-                      length="50"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[Name2]"
                       name="Name2" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[Address]"
                       dataType="wstr"
-                      length="100"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[Address]"
                       name="Address" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[Address2]"
                       dataType="wstr"
-                      length="50"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[Address2]"
                       name="Address2" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[City]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[City]"
                       name="City" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[Contact]"
                       dataType="wstr"
-                      length="100"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[Contact]"
                       name="Contact" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[PhoneNo]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[PhoneNo]"
                       name="PhoneNo" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[OurAccountNo]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[OurAccountNo]"
                       name="OurAccountNo" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[TerritoryCode]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[TerritoryCode]"
                       name="TerritoryCode" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[GlobalDimension1Code]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[GlobalDimension1Code]"
                       name="GlobalDimension1Code" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[GlobalDimension2Code]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[GlobalDimension2Code]"
                       name="GlobalDimension2Code" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[VendorPostingGroup]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[VendorPostingGroup]"
                       name="VendorPostingGroup" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[CurrencyCode]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[CurrencyCode]"
                       name="CurrencyCode" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[PaymentTermsCode]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[PaymentTermsCode]"
                       name="PaymentTermsCode" />
                     <outputColumn
@@ -1722,61 +1739,61 @@
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[PayToVendorNo]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[PayToVendorNo]"
                       name="PayToVendorNo" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[PaymentMethodCode]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[PaymentMethodCode]"
                       name="PaymentMethodCode" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[FaxNo]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[FaxNo]"
                       name="FaxNo" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[TaxRegistrationNo]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[TaxRegistrationNo]"
                       name="TaxRegistrationNo" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[ZipCode]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[ZipCode]"
                       name="ZipCode" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[State]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[State]"
                       name="State" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[Email]"
                       dataType="wstr"
-                      length="80"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[Email]"
                       name="Email" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[HomePage]"
                       dataType="wstr"
-                      length="80"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[HomePage]"
                       name="HomePage" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[NoSeries]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[NoSeries]"
                       name="NoSeries" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[TaxAreaCode]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[TaxAreaCode]"
                       name="TaxAreaCode" />
                     <outputColumn
@@ -1787,21 +1804,28 @@
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[ICPartnerCode]"
                       dataType="wstr"
-                      length="20"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[ICPartnerCode]"
                       name="ICPartnerCode" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[FederalIDNo]"
                       dataType="wstr"
-                      length="30"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[FederalIDNo]"
                       name="FederalIDNo" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[IRS1099Code]"
                       dataType="wstr"
-                      length="10"
+                      length="4000"
                       lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[IRS1099Code]"
                       name="IRS1099Code" />
+                    <outputColumn
+                      refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[Comment]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      lineageId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[Comment]"
+                      name="Comment" />
                     <outputColumn
                       refId="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords.Outputs[OLE DB Source Error Output].Columns[VendorBankName]"
                       codePage="1252"
@@ -2009,15 +2033,6 @@
           VSTAMinorVersion="0"
           Language="CSharp">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
-          <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <root>
@@ -2136,6 +2151,35 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_015a460266f24cbbaf582319ef6ec464.Properties.Settings.get_Default():ST_015a460266f24cbbaf582319ef6ec464.Properties.Sett" +
+    "ings")]
+
+namespace ST_015a460266f24cbbaf582319ef6ec464.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -2422,35 +2466,6 @@ namespace ST_015a460266f24cbbaf582319ef6ec464
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_015a460266f24cbbaf582319ef6ec464.Properties.Settings.get_Default():ST_015a460266f24cbbaf582319ef6ec464.Properties.Sett" +
-    "ings")]
-
-namespace ST_015a460266f24cbbaf582319ef6ec464.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-          <ProjectItem
             Name="Properties\AssemblyInfo.cs"
             Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -2480,6 +2495,15 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -2734,6 +2758,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           Size="163,42"
           Id="Package\Get Vendor Count"
           TopLeft="75,48" />
+        <NodeLayout
+          Size="131,42"
+          Id="Package\Script Task"
+          TopLeft="92,226" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="157.5,90">
@@ -2758,10 +2786,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="131,42"
-          Id="Package\Script Task"
-          TopLeft="92,226" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
           TopLeft="158,186">
@@ -2793,27 +2817,27 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="204,42"
-          Id="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords"
-          TopLeft="83,27" />
-        <NodeLayout
           Size="172,42"
           Id="Package\DFLT - Put Results in Memory\Flat File Destination"
-          TopLeft="99,143" />
+          TopLeft="94,128" />
+        <NodeLayout
+          Size="204,42"
+          Id="Package\DFLT - Put Results in Memory\SODB - GetVendorRecords"
+          TopLeft="74,35" />
         <EdgeLayout
           Id="Package\DFLT - Put Results in Memory.Paths[OLE DB Source Output]"
-          TopLeft="185,69">
+          TopLeft="178,77">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,74"
+              EndConnector="0,51"
               Start="0,0"
-              End="0,66.5">
+              End="0,43.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,66.5" />
+                    End="0,43.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
